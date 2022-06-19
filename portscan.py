@@ -37,14 +37,15 @@ for proto in nm[ip].all_protocols():
         version = nm[ip][proto][port]['version']
         print ('Puerto : %s\tEstado : %s \tServicio : %s\tVersion : %s' % (port,state,product,version))
         print("----------------------------------------------------")
-
 #Utilización de la libreria json para codificar los datos a dicho formato
-jsonResult = {
-    'port':port, 
-    'state':state, 
-    'service': product, 
-    'version': version
-}
+        jsonResult = {
+            'ip': ip,
+            'protocol': proto,
+            'port':port, 
+            'state':state, 
+            'service': product, 
+            'version': version
+        }
 
 #Utilización de la libreria request para realizar una petición POST a la URL dada
 url = "http://127.0.0.1/example/fake_url.php"
