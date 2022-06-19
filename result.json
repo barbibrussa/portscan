@@ -1,0 +1,6 @@
+{
+    "port": 631,
+    "state": "open",
+    "service": "CUPS",
+    "version": "2.2"
+}
