@@ -1,4 +1,4 @@
-# PortScanner
+# PortScanner [WIP: en la espera de correciones]
 Proyecto dado dentro del Curso de Ciberseguridad Ed.11 de Fundación Telefónica. El mismo está desarrollado en Python y permite escanear puertos abiertos de una dirección IP. La información que se obtiene es el puerto, protocolo, servicio y versión. La misma se codifica a formato JSON para enviarla mediante una petición POST a una URL falsa y también se genera un archivo en dicho formato a nivel local.
 
 ### Consigna
