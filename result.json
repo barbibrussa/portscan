@@ -1,0 +1,8 @@
+{
+    "ip": "127.0.0.1",
+    "protocol": "tcp",
+    "port": 631,
+    "state": "open",
+    "service": "CUPS",
+    "version": "2.2"
+}
